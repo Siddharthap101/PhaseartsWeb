@@ -75,7 +75,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate }) => {
           <div className="lg:col-span-6">
             <div className="relative rounded-2xl overflow-hidden border border-slate-800 bg-slate-950">
               <img
-                src="/src/assets/images/hero_signage_factory_1791795584841.jpg"
+                src={`${import.meta.env.BASE_URL}images/hero_signage_factory_1791795584841.jpg`}
                 alt="Phase Arts Signage Factory Floor"
                 referrerPolicy="no-referrer"
                 className="w-full h-96 object-cover"

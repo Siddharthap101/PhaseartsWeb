@@ -98,7 +98,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onSelectProductF
             <div className="lg:col-span-5 relative">
               <div className="relative rounded-xl sm:rounded-2xl overflow-hidden border border-slate-800 bg-slate-900 shadow-2xl">
                 <img
-                  src="/src/assets/images/hero_signage_factory_1791795584841.jpg"
+                  src={`${import.meta.env.BASE_URL}images/hero_signage_factory_1791795584841.jpg`}
                   alt="Phase Arts Signage Manufacturing Facility and Letter Fabrication"
                   referrerPolicy="no-referrer"
                   className="w-full h-56 sm:h-72 md:h-80 lg:h-96 xl:h-[420px] object-cover"
