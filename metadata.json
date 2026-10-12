@@ -1,0 +1,6 @@
+{
+  "name": "Phase Arts - Signage Manufacturing",
+  "description": "Official company website for Phase Arts Signage Manufacturing Company (Pune, Kolhapur, Sangli). Precision 3D letters, liquid acrylic letters, CNC fabrication, ACP elevation works, and turnkey commercial signage.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
