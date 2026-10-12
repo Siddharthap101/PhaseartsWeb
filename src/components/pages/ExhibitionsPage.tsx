@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { NavigationPage } from '../../types';
 import { EXHIBITIONS_AND_EVENTS, COMPANY_INFO } from '../../data/companyData';
 import { 
@@ -24,8 +24,8 @@ export const ExhibitionsPage: React.FC<ExhibitionsPageProps> = ({ onNavigate }) 
       {/* 1. Header */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-4">
         <div className="inline-flex items-center gap-2 text-xs font-semibold text-amber-400">
-          <span>Section 10 · Exhibitions, Demos & Industry Events</span>
-          <span aria-hidden="true" className="text-slate-600">·</span>
+          <span>Section 10 Â· Exhibitions, Demos & Industry Events</span>
+          <span aria-hidden="true" className="text-slate-600">Â·</span>
           <span className="text-slate-400">Signage Expo & Technical Sessions</span>
         </div>
         <h1 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight leading-tight">
@@ -142,7 +142,7 @@ export const ExhibitionsPage: React.FC<ExhibitionsPageProps> = ({ onNavigate }) 
             <div className="lg:col-span-5">
               <div className="relative rounded-xl overflow-hidden border border-slate-800 bg-slate-950 group">
                 <img
-                  src="/src/assets/images/machinery_cnc_laser_1791795622601.jpg"
+                  src={`${import.meta.env.BASE_URL}images/machinery_cnc_laser_1791795622601.jpg`}
                   alt="Signage Machinery Demonstration"
                   referrerPolicy="no-referrer"
                   className="w-full h-64 object-cover opacity-80 group-hover:opacity-100 transition-opacity"
@@ -187,3 +187,5 @@ export const ExhibitionsPage: React.FC<ExhibitionsPageProps> = ({ onNavigate }) 
     </div>
   );
 };
+
+

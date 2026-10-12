@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { NavigationPage } from '../../types';
 import { COMPANY_INFO, SIGNAGE_PRODUCTS, CLIENT_BRANDS, OFFICE_LOCATIONS, MACHINERY_LIST } from '../../data/companyData';
 import { 
@@ -35,7 +35,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onSelectProductF
             <div className="lg:col-span-7 space-y-4 sm:space-y-6">
               <div className="inline-flex items-center gap-2 text-[10px] sm:text-xs font-medium text-amber-400">
                 <span>Phase Arts Signage Manufacturing</span>
-                <span aria-hidden="true" className="text-slate-600">·</span>
+                <span aria-hidden="true" className="text-slate-600">Â·</span>
                 <span className="text-slate-400">Pan India Operations</span>
               </div>
 
@@ -81,12 +81,12 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onSelectProductF
                   <CheckCircle2 className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-amber-400" />
                   In-House CNC & Fiber Laser
                 </span>
-                <span aria-hidden="true" className="text-slate-700 hidden sm:inline">·</span>
+                <span aria-hidden="true" className="text-slate-700 hidden sm:inline">Â·</span>
                 <span className="flex items-center gap-1.5 text-slate-300">
                   <CheckCircle2 className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-amber-400" />
                   Direct CDR File Audits
                 </span>
-                <span aria-hidden="true" className="text-slate-700 hidden sm:inline">·</span>
+                <span aria-hidden="true" className="text-slate-700 hidden sm:inline">Â·</span>
                 <span className="flex items-center gap-1.5 text-slate-300">
                   <CheckCircle2 className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-amber-400" />
                   Turnkey Rigging & Installation
@@ -132,7 +132,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onSelectProductF
             <div className="group p-3 sm:p-4 md:p-5 bg-gradient-to-br from-slate-900 to-slate-950 rounded-xl sm:rounded-2xl border border-slate-800 hover:border-amber-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-amber-500/10">
               <span className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white font-mono tabular-nums group-hover:text-amber-400 transition-colors">16+ Brands</span>
               <p className="text-[10px] sm:text-xs text-amber-400 font-medium mt-1.5 sm:mt-2">Approved Client Portfolio</p>
-              <p className="text-[10px] sm:text-xs text-slate-400 mt-0.5 sm:mt-1">Samsung, Jio, Jockey, Adani, Allen Solly, L'Oréal</p>
+              <p className="text-[10px] sm:text-xs text-slate-400 mt-0.5 sm:mt-1">Samsung, Jio, Jockey, Adani, Allen Solly, L'OrÃ©al</p>
             </div>
 
             <div className="group p-3 sm:p-4 md:p-5 bg-gradient-to-br from-slate-900 to-slate-950 rounded-xl sm:rounded-2xl border border-slate-800 hover:border-amber-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-amber-500/10">
@@ -284,7 +284,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onSelectProductF
             <div className="lg:col-span-7">
               <div className="relative rounded-xl sm:rounded-2xl overflow-hidden border border-slate-800 bg-slate-950">
                 <img
-                  src="/src/assets/images/machinery_cnc_laser_1791795622601.jpg"
+                  src={`${import.meta.env.BASE_URL}images/machinery_cnc_laser_1791795622601.jpg`}
                   alt="Automatic CNC Signage Letter Bending and Fiber Laser Machine"
                   referrerPolicy="no-referrer"
                   className="w-full h-56 sm:h-72 md:h-80 lg:h-96 object-cover"
@@ -292,7 +292,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onSelectProductF
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-transparent to-transparent"></div>
                 <div className="absolute bottom-3 sm:bottom-4 left-3 sm:left-4 right-3 sm:right-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 sm:gap-0 text-[10px] sm:text-xs text-slate-300 bg-slate-950/80 backdrop-blur-md p-2.5 sm:p-3 rounded-lg sm:rounded-xl border border-slate-800">
                   <span>In-House Metal Fabrication & Letter Flange Forming</span>
-                  <span className="text-amber-400 font-mono font-medium">±0.025 mm Precision</span>
+                  <span className="text-amber-400 font-mono font-medium">Â±0.025 mm Precision</span>
                 </div>
               </div>
             </div>
@@ -306,7 +306,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onSelectProductF
           <div className="lg:col-span-6 order-2 lg:order-1">
             <div className="relative rounded-xl sm:rounded-2xl overflow-hidden border border-slate-800 bg-slate-950">
               <img
-                src="/src/assets/images/acp_cladding_elevation_1791795639245.jpg"
+                src={`${import.meta.env.BASE_URL}images/acp_cladding_elevation_1791795639245.jpg`}
                 alt="Architectural ACP Sheet Elevation and Storefront Fascia"
                 referrerPolicy="no-referrer"
                 className="w-full h-56 sm:h-72 md:h-80 lg:h-96 object-cover"
@@ -321,7 +321,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onSelectProductF
 
           <div className="lg:col-span-6 order-1 lg:order-2 space-y-4 sm:space-y-5">
             <div className="text-[10px] sm:text-xs font-semibold text-amber-400 tracking-wider uppercase">
-              Section 5 · Architectural Cladding
+              Section 5 Â· Architectural Cladding
             </div>
             <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-white tracking-tight leading-snug">
               ACP Works & Building Elevation as per Requirement
@@ -337,7 +337,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onSelectProductF
               </li>
               <li className="flex items-center gap-2">
                 <CheckCircle2 className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-amber-400 shrink-0" />
-                <span>Precision CNC sheet V-grooving for seamless 90° corners</span>
+                <span>Precision CNC sheet V-grooving for seamless 90Â° corners</span>
               </li>
               <li className="flex items-center gap-2">
                 <CheckCircle2 className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-amber-400 shrink-0" />
@@ -413,7 +413,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onSelectProductF
         </div>
       </section>
 
-      {/* 6. Tri-City Office Footprint (Pune · Kolhapur · Sangli) */}
+      {/* 6. Tri-City Office Footprint (Pune Â· Kolhapur Â· Sangli) */}
       <section className="bg-slate-900/30 border-t border-slate-900 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-10">
@@ -522,3 +522,5 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onSelectProductF
     </div>
   );
 };
+
+

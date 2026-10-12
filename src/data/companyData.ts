@@ -1,4 +1,4 @@
-import { SignageProduct, MachineryItem, ProjectEntry, OfficeLocation } from '../types';
+﻿import { SignageProduct, MachineryItem, ProjectEntry, OfficeLocation } from '../types';
 
 export const COMPANY_INFO = {
   name: 'Phase Arts',
@@ -47,7 +47,7 @@ export const SIGNAGE_PRODUCTS: SignageProduct[] = [
       'Jewelry Showrooms & Premium Electronics Outlets',
       'Architectural Interior Feature Walls',
     ],
-    imageUrl: '/src/assets/images/product_liquid_letters_1791795605402.jpg',
+    imageUrl: `${import.meta.env.BASE_URL}images/product_liquid_letters_1791795605402.jpg`,
     isPopular: true,
   },
   {
@@ -78,7 +78,7 @@ export const SIGNAGE_PRODUCTS: SignageProduct[] = [
       'Shopping Mall Exterior Elevations',
       'Automotive Dealerships & Service Centers',
     ],
-    imageUrl: '/src/assets/images/hero_signage_factory_1791795584841.jpg',
+    imageUrl: `${import.meta.env.BASE_URL}images/hero_signage_factory_1791795584841.jpg`,
     isPopular: true,
   },
   {
@@ -88,7 +88,7 @@ export const SIGNAGE_PRODUCTS: SignageProduct[] = [
     tagline: 'Modern minimal flush-fit profile without visible plastic borders or rims',
     description: 'Ultra-contemporary channel letters where the precision-routed acrylic face mounts completely flush with the metal side return. Eliminates the traditional plastic trimcap rim for an architectural, ultra-clean aesthetic preferred by modern architects.',
     keyFeatures: [
-      'Zero exterior rim — completely flush mechanical fit',
+      'Zero exterior rim â€” completely flush mechanical fit',
       'Sleek modern European architectural aesthetic',
       'Precision CNC step-routed acrylic face fitting snug into bent channel',
       'Uniform front glow extending to the extreme perimeter of every letter',
@@ -99,7 +99,7 @@ export const SIGNAGE_PRODUCTS: SignageProduct[] = [
       'Face Material': 'Step-routed 3mm-6mm Cast Optical Acrylic',
       'Side Channel': 'Automated CNC Bent Aluminum or Stainless Steel',
       'Joint Sealing': 'Solvent-bonded internal interlocking lip',
-      'Illumination': '160° Wide-angle Lens LED Modules (IP67)',
+      'Illumination': '160Â° Wide-angle Lens LED Modules (IP67)',
       'Installation': 'Direct facade standoff or raceway mount',
     },
     finishes: ['Matte Black Anodized Return', 'Mirror Silver SS', 'Titanium Gold', 'Powder-Coated Architectural Grey'],
@@ -109,7 +109,7 @@ export const SIGNAGE_PRODUCTS: SignageProduct[] = [
       'Modern Commercial IT Parks & Co-working Spaces',
       'Designer Apparel & Footwear Stores',
     ],
-    imageUrl: '/src/assets/images/project_portfolio_showcase_1791795652903.jpg',
+    imageUrl: `${import.meta.env.BASE_URL}images/project_portfolio_showcase_1791795652903.jpg`,
   },
   {
     id: '3d-letters',
@@ -126,7 +126,7 @@ export const SIGNAGE_PRODUCTS: SignageProduct[] = [
     ],
     specifications: {
       'Thickness / Depth': '10mm to 100mm Built-up Profile',
-      'Cutting Accuracy': '±0.1mm via MultiCam CNC / Fiber Laser',
+      'Cutting Accuracy': 'Â±0.1mm via MultiCam CNC / Fiber Laser',
       'Backlighting Styles': 'Halo Back-lit (Warm 3000K / Neutral 4000K), Front-lit, Dual Glow',
       'Mounting': 'Threaded SS Standoff Studs with paper template',
       'Base Substrate': 'Acrylic, Polycarbonate, or Aluminum composite backing',
@@ -138,7 +138,7 @@ export const SIGNAGE_PRODUCTS: SignageProduct[] = [
       'Restaurant & Lounge Entrance Portals',
       'Conference Centers & Educational Campuses',
     ],
-    imageUrl: '/src/assets/images/product_liquid_letters_1791795605402.jpg',
+    imageUrl: `${import.meta.env.BASE_URL}images/product_liquid_letters_1791795605402.jpg`,
     isPopular: true,
   },
   {
@@ -168,7 +168,7 @@ export const SIGNAGE_PRODUCTS: SignageProduct[] = [
       'Luxury Residential Complexes & Township Gates',
       'Government & Institutional Landmarks',
     ],
-    imageUrl: '/src/assets/images/hero_signage_factory_1791795584841.jpg',
+    imageUrl: `${import.meta.env.BASE_URL}images/hero_signage_factory_1791795584841.jpg`,
     isPopular: true,
   },
   {
@@ -178,7 +178,7 @@ export const SIGNAGE_PRODUCTS: SignageProduct[] = [
     tagline: 'Customized ACP signage, sheet fabrication, cladding, fascia & elevation as per requirement',
     description: 'Phase Arts undertakes end-to-end ACP (Aluminium Composite Panel) works tailored to architectural and corporate branding requirements across India. From complete showroom building fascias to route-and-return pylon pylons, our facility provides CNC v-groove routing, heavy-duty iron sub-framing, ACP cladding, and seamless signage integration.',
     keyFeatures: [
-      'V-groove CNC sheet routing and folding for seamless 90° corner transitions',
+      'V-groove CNC sheet routing and folding for seamless 90Â° corner transitions',
       'Heavy-duty GI/MS framework fabrication with anti-rust zinc-chromate primer',
       'Wide brand palette (Alucobond, Alstone, Eurobond certified panels)',
       'Flawless structural silicone joint sealing with backer rod backing',
@@ -188,7 +188,7 @@ export const SIGNAGE_PRODUCTS: SignageProduct[] = [
       'Panel Thickness': '3mm / 4mm Exterior Architectural Grade',
       'Aluminium Skin': '0.25mm to 0.50mm PVDF / FEVE Coated Alloy',
       'Substructure': 'MS Tubular Box Section (25x25mm / 50x25mm / 50x50mm)',
-      'Sheet Routing': 'CNC Router 90°/135° V-Grooving for Crisp Edges',
+      'Sheet Routing': 'CNC Router 90Â°/135Â° V-Grooving for Crisp Edges',
       'Scope of Work': 'Custom Elevation, Fascia Work, Pylon Totems, Column Cladding',
     },
     finishes: ['Metallic Silver', 'Dark Champagne', 'Sparkling Black', 'Architectural Charcoal Grey', 'Timber Wood Grain', 'Mirror Finish'],
@@ -198,7 +198,7 @@ export const SIGNAGE_PRODUCTS: SignageProduct[] = [
       'Multi-Storey Commercial Facade Transformations',
       'Petrol Pump Fascia & Highway Pylon Monoliths',
     ],
-    imageUrl: '/src/assets/images/acp_cladding_elevation_1791795639245.jpg',
+    imageUrl: `${import.meta.env.BASE_URL}images/acp_cladding_elevation_1791795639245.jpg`,
     isPopular: true,
   },
   {
@@ -211,7 +211,7 @@ export const SIGNAGE_PRODUCTS: SignageProduct[] = [
       'Aluminum Trimcap coils with tough CAB plastic lip in 50m rolls',
       'Trimless aluminum return rolls with foldable serrated feet',
       'Optically pure liquid letter photopolymer resin and photo-initiator hardeners',
-      'High-efficiency waterproof LED injection modules with 160° optics',
+      'High-efficiency waterproof LED injection modules with 160Â° optics',
       'Structural cyanoacrylate and UV curing adhesives',
     ],
     specifications: {
@@ -226,7 +226,7 @@ export const SIGNAGE_PRODUCTS: SignageProduct[] = [
       'OEM Letter Assembly Lines',
       'Replacement & Maintenance Contractors',
     ],
-    imageUrl: '/src/assets/images/machinery_cnc_laser_1791795622601.jpg',
+    imageUrl: `${import.meta.env.BASE_URL}images/machinery_cnc_laser_1791795622601.jpg`,
   },
   {
     id: 'installation-services',
@@ -253,7 +253,7 @@ export const SIGNAGE_PRODUCTS: SignageProduct[] = [
       'Multi-Location Retail Rollouts across India',
       'Highway Monument & Pylon Sign Rigging',
     ],
-    imageUrl: '/src/assets/images/hero_signage_factory_1791795584841.jpg',
+    imageUrl: `${import.meta.env.BASE_URL}images/hero_signage_factory_1791795584841.jpg`,
   },
 ];
 
@@ -269,10 +269,10 @@ export const MACHINERY_LIST: MachineryItem[] = [
       powerLaser: '6.0 kW / 9.0 kW Air-Cooled High-Frequency Spindle',
       speed: 'Up to 24,000 RPM Spindle / 25 m/min Rapid Travel',
       materialsHandled: 'Cast Acrylic (up to 30mm), ACP, MDF, Polycarbonate, Brass, Aluminum',
-      accuracy: '±0.025 mm Repeatability',
+      accuracy: 'Â±0.025 mm Repeatability',
     },
     commercialStatus: 'In-House Production & Contract Fabrication',
-    imageUrl: '/src/assets/images/machinery_cnc_laser_1791795622601.jpg',
+    imageUrl: `${import.meta.env.BASE_URL}images/machinery_cnc_laser_1791795622601.jpg`,
   },
   {
     id: 'channel-bending-machine',
@@ -284,10 +284,10 @@ export const MACHINERY_LIST: MachineryItem[] = [
       workingArea: 'Profile Height 20mm to 160mm',
       speed: '30 - 60 seconds per letter average bending time',
       materialsHandled: 'Aluminum Coils, Stainless Steel Strips (0.6 - 1.2mm), Iron Strips',
-      accuracy: 'Micro-stepping servo drive with ±0.05mm curvature precision',
+      accuracy: 'Micro-stepping servo drive with Â±0.05mm curvature precision',
     },
     commercialStatus: 'In-House Production & Contract Fabrication',
-    imageUrl: '/src/assets/images/machinery_cnc_laser_1791795622601.jpg',
+    imageUrl: `${import.meta.env.BASE_URL}images/machinery_cnc_laser_1791795622601.jpg`,
   },
   {
     id: 'fiber-laser-machine',
@@ -299,10 +299,10 @@ export const MACHINERY_LIST: MachineryItem[] = [
       workingArea: '1500 x 3000 mm Dual Exchange Platform',
       powerLaser: '1500W - 3000W Fiber Laser Resonator',
       materialsHandled: 'Stainless Steel (up to 6mm), Carbon Steel (up to 12mm), Brass, Aluminum',
-      accuracy: '±0.01 mm Positioning Accuracy with Nitrogen Assist',
+      accuracy: 'Â±0.01 mm Positioning Accuracy with Nitrogen Assist',
     },
     commercialStatus: 'In-House Production & Contract Fabrication',
-    imageUrl: '/src/assets/images/machinery_cnc_laser_1791795622601.jpg',
+    imageUrl: `${import.meta.env.BASE_URL}images/machinery_cnc_laser_1791795622601.jpg`,
   },
   {
     id: 'liquid-curing-equipment',
@@ -318,7 +318,7 @@ export const MACHINERY_LIST: MachineryItem[] = [
       accuracy: 'Consistent bubble-free clarity with zero thermal warpage',
     },
     commercialStatus: 'In-House Production & Contract Fabrication',
-    imageUrl: '/src/assets/images/product_liquid_letters_1791795605402.jpg',
+    imageUrl: `${import.meta.env.BASE_URL}images/product_liquid_letters_1791795605402.jpg`,
   },
   {
     id: 'uv-flatbed-printer',
@@ -333,7 +333,7 @@ export const MACHINERY_LIST: MachineryItem[] = [
       accuracy: 'Up to 2400 DPI with White Ink & Embossed Varnish Layer',
     },
     commercialStatus: 'Commercial Supply & Demonstrations',
-    imageUrl: '/src/assets/images/hero_signage_factory_1791795584841.jpg',
+    imageUrl: `${import.meta.env.BASE_URL}images/hero_signage_factory_1791795584841.jpg`,
   },
   {
     id: 'laser-welding-machine',
@@ -348,7 +348,7 @@ export const MACHINERY_LIST: MachineryItem[] = [
       accuracy: '0.2mm to 1.5mm weld seam with zero thermal distortion',
     },
     commercialStatus: 'In-House Production & Contract Fabrication',
-    imageUrl: '/src/assets/images/machinery_cnc_laser_1791795622601.jpg',
+    imageUrl: `${import.meta.env.BASE_URL}images/machinery_cnc_laser_1791795622601.jpg`,
   },
 ];
 
@@ -365,7 +365,7 @@ export const CLIENT_BRANDS: string[] = [
   'Castrol',
   'Metro',
   'Maaza',
-  "L'Oréal",
+  "L'OrÃ©al",
   'Asus',
   'Samsung',
   'Peter England',
@@ -383,7 +383,7 @@ export const PROJECTS_GALLERY: ProjectEntry[] = [
     dimensions: '28 ft x 4.5 ft Main Fascia',
     materials: ['Cast Acrylic 4mm', '0.040" Aluminum Returns', 'Eurobond ACP 4mm', 'XSYIP 67 12V LEDs'],
     illumination: 'High-Output Front-Lit White LEDs (6500K)',
-    imageUrl: '/src/assets/images/project_portfolio_showcase_1791795652903.jpg',
+    imageUrl: `${import.meta.env.BASE_URL}images/project_portfolio_showcase_1791795652903.jpg`,
     approvedReference: true,
   },
   {
@@ -397,7 +397,7 @@ export const PROJECTS_GALLERY: ProjectEntry[] = [
     dimensions: '16 ft x 2.5 ft Storefront Header',
     materials: ['Optical Liquid Resin', 'PVD Mirror Gold Titanium SS', 'MeanWell Driver'],
     illumination: 'Seamless Liquid Optical Diffusion (4000K Natural Warm)',
-    imageUrl: '/src/assets/images/product_liquid_letters_1791795605402.jpg',
+    imageUrl: `${import.meta.env.BASE_URL}images/product_liquid_letters_1791795605402.jpg`,
     approvedReference: true,
   },
   {
@@ -410,8 +410,8 @@ export const PROJECTS_GALLERY: ProjectEntry[] = [
     description: 'Flagship experience center outdoor facade featuring flush-mounted trimless acrylic channel letters in iconic corporate blue with crisp, high-contrast night visibility.',
     dimensions: '22 ft x 3.5 ft Building Facade',
     materials: ['Samsung Blue Cast Acrylic', 'Laser-Bent Aluminum Coil', 'IP67 Waterproof Modules'],
-    illumination: 'Front-Lit Daylight LEDs with 160° Wide Angle Lenses',
-    imageUrl: '/src/assets/images/acp_cladding_elevation_1791795639245.jpg',
+    illumination: 'Front-Lit Daylight LEDs with 160Â° Wide Angle Lenses',
+    imageUrl: `${import.meta.env.BASE_URL}images/acp_cladding_elevation_1791795639245.jpg`,
     approvedReference: true,
   },
   {
@@ -425,7 +425,7 @@ export const PROJECTS_GALLERY: ProjectEntry[] = [
     dimensions: '32 ft x 5 ft Entrance Monument',
     materials: ['AISI 316 Stainless Steel (1.5mm Face)', 'Threaded Anchor Standoffs', 'IP68 Waterproof Drivers'],
     illumination: 'Warm Amber 3000K Halo Reverse Backlighting',
-    imageUrl: '/src/assets/images/hero_signage_factory_1791795584841.jpg',
+    imageUrl: `${import.meta.env.BASE_URL}images/hero_signage_factory_1791795584841.jpg`,
     approvedReference: true,
   },
   {
@@ -439,7 +439,7 @@ export const PROJECTS_GALLERY: ProjectEntry[] = [
     dimensions: '24 ft x 4 ft Showroom Elevation',
     materials: ['Alstone 4mm ACP Cladding', 'Virgin Cast Acrylic', 'Heavy Duty Trimcap Coil'],
     illumination: 'Pure White 6500K Front Illumination',
-    imageUrl: '/src/assets/images/project_portfolio_showcase_1791795652903.jpg',
+    imageUrl: `${import.meta.env.BASE_URL}images/project_portfolio_showcase_1791795652903.jpg`,
     approvedReference: true,
   },
   {
@@ -453,7 +453,7 @@ export const PROJECTS_GALLERY: ProjectEntry[] = [
     dimensions: '14 ft x 2 ft Entry Canopy',
     materials: ['Liquid Photopolymer Resin', 'Matte Black Extruded Returns', 'High-CRI LEDs'],
     illumination: 'High-CRI Pure White 6500K Glow',
-    imageUrl: '/src/assets/images/product_liquid_letters_1791795605402.jpg',
+    imageUrl: `${import.meta.env.BASE_URL}images/product_liquid_letters_1791795605402.jpg`,
     approvedReference: true,
   },
   {
@@ -467,7 +467,7 @@ export const PROJECTS_GALLERY: ProjectEntry[] = [
     dimensions: '18 ft High Highway Pylon + 30 ft Fascia',
     materials: ['MS Truss Structure', '3mm Acrylic Diffusers', 'Weatherproof Automotive Finishes'],
     illumination: 'Internal High-Lumen Tube & Module Array',
-    imageUrl: '/src/assets/images/acp_cladding_elevation_1791795639245.jpg',
+    imageUrl: `${import.meta.env.BASE_URL}images/acp_cladding_elevation_1791795639245.jpg`,
     approvedReference: true,
   },
   {
@@ -477,11 +477,11 @@ export const PROJECTS_GALLERY: ProjectEntry[] = [
     location: 'Pune (FC Road Tech Hub)',
     signageType: 'Edge-Lit & 3D Acrylic Glow Letters',
     year: '2025',
-    description: 'High-tech gaming and premium PC experience store sign with dual glow (cyan edge glow and crisp white front face) reflecting the brand’s performance identity.',
+    description: 'High-tech gaming and premium PC experience store sign with dual glow (cyan edge glow and crisp white front face) reflecting the brandâ€™s performance identity.',
     dimensions: '20 ft x 3 ft Brand Header',
     materials: ['Cast Optical Acrylic', 'Precision CNC Stepped Face', 'RGBW Addressable Modules'],
     illumination: 'Dual Tone Front-White with Accent Neon Cyan Edge-Glow',
-    imageUrl: '/src/assets/images/project_portfolio_showcase_1791795652903.jpg',
+    imageUrl: `${import.meta.env.BASE_URL}images/project_portfolio_showcase_1791795652903.jpg`,
     approvedReference: true,
   },
   {
@@ -495,12 +495,12 @@ export const PROJECTS_GALLERY: ProjectEntry[] = [
     dimensions: '35 ft x 5 ft Curved Facade',
     materials: ['Flexible Radius ACP Work', 'Heavy-Duty Trimcap Letters', 'Surge-Protected Power Grid'],
     illumination: 'Daylight 6500K High Density LEDs',
-    imageUrl: '/src/assets/images/acp_cladding_elevation_1791795639245.jpg',
+    imageUrl: `${import.meta.env.BASE_URL}images/acp_cladding_elevation_1791795639245.jpg`,
     approvedReference: true,
   },
   {
     id: 'proj-loreal',
-    clientBrand: "L'Oréal",
+    clientBrand: "L'OrÃ©al",
     category: 'Beauty & Luxury Retail',
     location: 'Pune (Phoenix Marketcity Mall)',
     signageType: 'PVD Rose Gold SS Halo-Lit Lettering',
@@ -509,7 +509,7 @@ export const PROJECTS_GALLERY: ProjectEntry[] = [
     dimensions: '12 ft x 1.8 ft Boutique Header',
     materials: ['SS 304 Titanium PVD Rose Gold', 'Clear Acrylic 10mm Base Spacer', 'Warm LED Ribbon'],
     illumination: 'Soft Ambient Halo Backlight (3000K Golden Warm)',
-    imageUrl: '/src/assets/images/product_liquid_letters_1791795605402.jpg',
+    imageUrl: `${import.meta.env.BASE_URL}images/product_liquid_letters_1791795605402.jpg`,
     approvedReference: true,
   },
   {
@@ -523,7 +523,7 @@ export const PROJECTS_GALLERY: ProjectEntry[] = [
     dimensions: 'Multiple 15 ft x 3 ft Sign Units',
     materials: ['GI Sheet Fabrication', 'Cast Vinyl Overlays', 'Polycarbonate Diffusers'],
     illumination: 'Uniform Commercial LED Illumination',
-    imageUrl: '/src/assets/images/hero_signage_factory_1791795584841.jpg',
+    imageUrl: `${import.meta.env.BASE_URL}images/hero_signage_factory_1791795584841.jpg`,
     approvedReference: true,
   },
   {
@@ -537,7 +537,7 @@ export const PROJECTS_GALLERY: ProjectEntry[] = [
     dimensions: '26 ft x 4 ft Storefront Header',
     materials: ['Automated Bended Aluminum', 'Cast Acrylic 4mm', 'ACP Fascia Underlay'],
     illumination: 'Vivid Red and White Crisp Front-Lit Array',
-    imageUrl: '/src/assets/images/project_portfolio_showcase_1791795652903.jpg',
+    imageUrl: `${import.meta.env.BASE_URL}images/project_portfolio_showcase_1791795652903.jpg`,
     approvedReference: true,
   },
 ];
@@ -554,7 +554,7 @@ export const OFFICE_LOCATIONS: OfficeLocation[] = [
     whatsapp: '+91 7410 112 488',
     whatsappRaw: '917410112488',
     email: 'phasearts1715@gmail.com',
-    workingHours: 'Monday – Saturday: 9:30 AM – 6:30 PM (Sunday Closed)',
+    workingHours: 'Monday â€“ Saturday: 9:30 AM â€“ 6:30 PM (Sunday Closed)',
     servicesHandled: [
       'Customer Inquiries & Project Consultation',
       'Corporate B2B Procurement & Architect Meetings',
@@ -576,7 +576,7 @@ export const OFFICE_LOCATIONS: OfficeLocation[] = [
     whatsapp: '+91 7410 112 488',
     whatsappRaw: '917410112488',
     email: 'phasearts1715@gmail.com',
-    workingHours: 'Monday – Saturday: 9:00 AM – 7:00 PM (Sunday Closed)',
+    workingHours: 'Monday â€“ Saturday: 9:00 AM â€“ 7:00 PM (Sunday Closed)',
     servicesHandled: [
       'Regional Inquiries & Customer Coordination',
       'CNC Cutting, Bending & Liquid Letter Fabrication Unit',
@@ -598,7 +598,7 @@ export const OFFICE_LOCATIONS: OfficeLocation[] = [
     whatsapp: '+91 7410 112 488',
     whatsappRaw: '917410112488',
     email: 'phasearts1715@gmail.com',
-    workingHours: 'Monday – Saturday: 9:30 AM – 7:00 PM (Sunday Closed)',
+    workingHours: 'Monday â€“ Saturday: 9:30 AM â€“ 7:00 PM (Sunday Closed)',
     servicesHandled: [
       'Regional Inquiries & Customer Coordination',
       'Commercial Retail & Local Business Consultation',
@@ -661,3 +661,4 @@ export const TESTIMONIALS = [
     quote: 'Having real offices and technical teams in Pune, Kolhapur, and Sangli makes coordination seamless. Fast quotes, prompt CDR audits, and reliable on-time delivery on site.',
   },
 ];
+
